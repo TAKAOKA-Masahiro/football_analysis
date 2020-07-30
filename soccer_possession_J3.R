@@ -1,9 +1,3 @@
-library(readxl)
-soccer_possession_J3 <- read_excel("C:/Users/Takaoka/Desktop/statistics/lecture/soccer_possession_J3.xlsx", 
-                                          col_types = c("numeric", "text", "numeric", 
-                                                                  "numeric", "numeric", "numeric", 
-
-                                                                                                                "numeric"))
 # 決定木
 View(soccer_possession_J3)
 head(soccer_possession_J3)
